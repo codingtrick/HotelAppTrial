@@ -1,0 +1,54 @@
+<ion-content>
+  <img src="assets/caesars-night.jpg" height="50%">
+  <ion-card>
+    <ion-card-header>
+      Search Hotel<ion-icon name="navigate" size="large" style="float: right; height: 25px;"></ion-icon>
+      <ion-card-subtitle>Find your favorite hotel</ion-card-subtitle>
+    </ion-card-header>
+    <ion-item lines="none">
+      <ion-label position="stacked">City</ion-label>
+      <ion-input style="--padding-start:20px; --padding-top:15px;--pading-bottom:10px;"></ion-input>
+    </ion-item>
+    <ion-item lines="none" class="arrvInput">
+      <ion-label>
+        Departure
+      </ion-label>
+      <ion-label style="margin-right:-118px">
+        Arrival
+      </ion-label>
+    </ion-item>
+    <ion-item lines="none" class="arrvInput">
+      <ion-input></ion-input>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-item lines="none">
+            <ion-label position="stacked" style="margin-bottom: 10px;">Room</ion-label>
+            <ion-buttons class="AddButt">
+              <ion-button color="primary" style="background: #eddbd8; --color: primary; border-top-left-radius:10px;border-bottom-left-radius:10px;">+</ion-button>
+              <ion-button color="primary" style="background: #eddbd8;">1</ion-button>
+              <ion-button color="primary" style="background: #eddbd8; --color: primary; border-top-right-radius:10px;border-bottom-right-radius:10px;">+</ion-button>
+            </ion-buttons>
+          </ion-item>
+        </ion-col>
+        <ion-col>
+          <ion-item lines="none">
+            <ion-label position="stacked" style="margin-bottom: 10px;">Star</ion-label>
+            <ion-buttons class="AddButt">
+              <ion-button color="primary" style="background: #eddbd8; --color: primary; border-top-left-radius:10px;border-bottom-left-radius:10px;">+</ion-button>
+              <ion-button color="primary" style="background: #eddbd8;">1</ion-button>
+              <ion-button color="primary" style="background: #eddbd8; --color: primary; border-top-right-radius:10px;border-bottom-right-radius:10px;">+</ion-button>
+            </ion-buttons>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col style="margin: 30px;">
+          <button>Search</button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+</ion-content>

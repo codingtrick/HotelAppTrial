@@ -1,0 +1,58 @@
+ion-card{
+  width: 100%;
+  margin: 0;
+  margin-top: -73px;
+  border-radius: 19px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  ion-card-header{
+    color: var(--ion-color-primary);
+    font-size: 16pt;
+    ion-card-subtitle{
+      margin: 0;
+    }
+  }
+  ion-label{
+    font-size: 18pt;
+    color: var(--ion-color-primary);
+  }
+  ion-input{
+    margin-top: 10px;
+    border: #eddbd8;
+    border-radius: 14px;
+    background-color:#eddbd8 ;
+    height: 100%;
+    width: 90%;
+    font-size: 13pt;
+    --padding-start:20px;
+    text-transform: uppercase;
+  }
+  .arrvInput{
+    width: 65%;
+    ion-label{
+      font-size: 12pt;
+      margin-bottom: -14px;
+    }
+    ion-input{
+      border-radius: 0px;
+    }
+  }
+  .AddButt{
+    ion-button{
+      --background:#eddbd8;
+      --color:primary;
+      margin: 0;
+      font-size: 16pt;
+      width: 45px;
+      height: 45px;
+    }
+  }
+  button{
+   width: 100%;
+   font-size: 28px;
+   padding: 13px;
+   border-radius: 25px;
+   background: #903e41; 
+   color: white;
+  }
+}
